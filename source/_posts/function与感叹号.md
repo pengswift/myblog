@@ -2,11 +2,11 @@ title: function与感叹号
 date: 2015-06-21 23:59:44
 tags: javascript
 ---
-#function与感叹号
+e.g.
 
 	!function(){ alert("hello")}()
 
-	equals: 
+	equals: 	
 
 	(function(){alert("hello")})()
 
