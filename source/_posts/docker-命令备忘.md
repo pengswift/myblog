@@ -92,4 +92,6 @@ tags: docker
 	23. 启动容器，使用Dockerfile 默认端口
 		docker run -d -P --name static_web jamtur01/static_web nginx -g "daemon off;"
 		
+    24. 进入容器
+        docker exec -it dockerhub /bin/bash
 	
