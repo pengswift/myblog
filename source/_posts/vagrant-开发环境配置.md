@@ -20,7 +20,9 @@ config.ssh.private_key_path = "~/.ssh/id_rsa"
 
 
 #ubuntu操作
-###1.创建新用户(useradd会自动创建home/game1目录，并拷贝相关文件)
+###1.创建新用户(adduser会自动创建home/game1目录，并拷贝相关文件)
+
+sudo adduser game1
 
 sudo useradd game1
 sudo passwd game1
